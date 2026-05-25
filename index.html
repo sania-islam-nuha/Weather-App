@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Weather Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="container">
+    <nav>
+        <form>
+            <div class="search_box">
+                <i class="fa-solid fa-magnifying-glass search_icon"></i>
+                <input type="text" placeholder="Search for a location..." class="search_area">
+                <button type="submit">Search</button>
+            </div>
+        </form>
+    </nav>
+
+    <div class="weather_card">
+        <div class="weather_container">
+            <div class="weather_icon_box">
+                <img id="weather_icon" src="https://cdn.weatherapi.com/weather/64x64/day/116.png" alt="weather icon">
+            </div>
+            
+            <div class="temp">
+                <h1 class="temp_text">20°C</h1>
+            </div>
+
+            <div class="condition">
+                <p class="condition_text">Sunny</p>
+            </div>
+
+            <div class="time_location">
+                <p class="location"><i class="fa-solid fa-location-dot"></i> New York, USA</p>
+                <p class="date_time">Monday, 2022-09-26 | 12:00 PM</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
